@@ -9,9 +9,13 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  padding: 8px;
 }
 
 .profile-image {
@@ -29,6 +33,16 @@ body {
   font-style: italic;
 }
 
+.left-links{
+  display: flex;
+}
+
+.right-links{
+  display: flex;
+  gap: 16px;
+
+}
+
 button {
   border: none;
   border-radius: 8px;
@@ -44,5 +58,7 @@ a {
 }
 
 ul {
+  gap: 16px;
+  display: flex;
   list-style-type: none;
 }
